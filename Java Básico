@@ -1,0 +1,57 @@
+# Java Básico
+
+Java é uma linguagem de programação orientada a objetos criada para ser portátil e segura.
+
+## Variáveis
+
+Variáveis armazenam informações na memória.
+
+Exemplos:
+
+```java
+String nome = "Marcos";
+int idade = 20;
+double altura = 1.75;
+boolean ativo = true;
+```
+
+## Tipos Primitivos
+
+* byte
+* short
+* int
+* long
+* float
+* double
+* char
+* boolean
+
+## Operadores
+
+Soma: +
+
+Subtração: -
+
+Multiplicação: *
+
+Divisão: /
+
+Resto da divisão: %
+
+## Entrada de Dados
+
+```java
+Scanner sc = new Scanner(System.in);
+
+String nome = sc.nextLine();
+```
+
+## Saída de Dados
+
+```java
+System.out.println("Olá Mundo");
+```
+
+## Exercício
+
+Crie um programa que receba o nome e idade do usuário e exiba essas informações.

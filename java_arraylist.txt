@@ -1,0 +1,64 @@
+# ArrayList em Java
+
+ArrayList é uma coleção dinâmica que pode crescer conforme necessário.
+
+## Importação
+
+```java
+import java.util.ArrayList;
+```
+
+## Criando ArrayList
+
+```java
+ArrayList<String> jogos = new ArrayList<>();
+```
+
+## Adicionando elementos
+
+```java
+jogos.add("Minecraft");
+jogos.add("GTA V");
+```
+
+## Obtendo elementos
+
+```java
+jogos.get(0);
+```
+
+## Removendo elementos
+
+```java
+jogos.remove(0);
+```
+
+## Tamanho da lista
+
+```java
+jogos.size();
+```
+
+## Verificando existência
+
+```java
+jogos.contains("Minecraft");
+```
+
+## Percorrendo
+
+```java
+for(String jogo : jogos){
+    System.out.println(jogo);
+}
+```
+
+## Diferença para Array
+
+Array:
+
+* Tamanho fixo.
+
+ArrayList:
+
+* Tamanho dinâmico.

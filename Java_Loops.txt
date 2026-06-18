@@ -1,0 +1,53 @@
+# Loops em Java
+
+Loops permitem repetir blocos de código.
+
+## For
+
+```java
+for(int i = 1; i <= 10; i++){
+    System.out.println(i);
+}
+```
+
+## While
+
+```java
+int i = 1;
+
+while(i <= 10){
+    System.out.println(i);
+    i++;
+}
+```
+
+## Do While
+
+```java
+int i = 1;
+
+do{
+    System.out.println(i);
+    i++;
+}while(i <= 10);
+```
+
+## Quando usar
+
+For:
+
+* Quando sabe quantas repetições serão feitas.
+
+While:
+
+* Quando a quantidade de repetições é desconhecida.
+
+Do While:
+
+* Quando o bloco precisa executar pelo menos uma vez.
+
+## Exercícios
+
+1. Mostrar números de 1 a 100.
+2. Mostrar apenas números pares.
+3. Calcular a soma de 1 a 50.
